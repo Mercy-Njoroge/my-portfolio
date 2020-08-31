@@ -1,0 +1,181 @@
+body {
+  margin: 100px;
+  padding: 0;
+}
+
+
+#main {
+  background-image: url('../assets/img/landing.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: -10;
+}
+
+#img1-overlay {
+  position: absolute;
+  background-color: rgba(0,0,0,0.7);
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -5;
+}
+
+#body_text ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 40px;
+  color: #ffffff;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 40px;
+}
+
+#body_text ul {
+  text-align: center;
+  padding-top: 260px;
+  text-decoration: underline;
+}
+
+.about {
+  height: 200px;
+}
+
+#me {
+  text-align: center;
+}
+
+#me h3 {
+  font-size: 60px;
+ font-family: 'Josefin Sans', sans-serif;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+#me p {
+  font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+}
+
+#col-mid-4 {
+  display: inline-block;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 100px;
+  text-align: center;
+}
+
+#col-mid-4 p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+}
+
+#story{
+  padding-bottom: 500px;
+}
+
+#projects {
+  padding-top: 100px;
+  padding-right: 10px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+  height: 600px;
+  background: rgba(255,255,255,0.5);
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+#projects h3 {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 500px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 60px;
+  
+}
+
+#id{
+  padding-top:300px;
+}
+
+#end {
+  height: 60px;
+  padding: 5px;
+  background-color: rgba(0,0,0, 0.1);
+}
+
+#name {
+  float: left;
+  padding-left: 100px;
+  padding-top: 22px;
+  font-family: 'Anaheim', sans-serif;
+  display: inline-block;
+}
+
+#social {
+  float: right;
+  padding-right: 200px;
+  padding-top: 15px;
+
+}
+
+#social img {
+  padding-left: 10px;
+}
+
+table{
+  margin-left: 50px;
+  margin-right: 100px;
+}
+
+table img {
+  width: 600px;
+  height: 350px;
+  overflow: hidden;
+}
+
+table td {
+  padding top: 50px;
+  padding-right: 50px;
+  padding-left: 10px;
+  
+ 
+}
+
+table img:hover {
+  transform: scale(0.9);
+  transition: all .7s ease-in;
+  filter: grayscale(1);
+}
+
+table td p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 21px;
+  font-style: oblique;
+  padding-top: 20px;
+}
+
+#quote{
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+footer {
+  padding-top: 500px;
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
